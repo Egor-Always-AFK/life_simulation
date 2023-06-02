@@ -5,4 +5,7 @@ import com.example.life_simulation.map.Coordinate;
 
 public class Obstacles extends Entity {
 
+    public Obstacles(Coordinate coordinate, boolean alive) {
+        super(coordinate, alive);
+    }
 }

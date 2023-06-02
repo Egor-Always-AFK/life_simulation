@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ccaeeee-1980-4ee9-b6d1-cb6c49e20509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/SimulationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/map/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/life_simulation/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/LoopSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/utils/CustomThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/utils/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/SimulationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/SimulationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/animals/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/animals/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/animals/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/animals/Herbivore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/animals/Predator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/animals/Predator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/obstacles/Grass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/obstacles/Grass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/obstacles/Obstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/obstacles/Obstacles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/obstacles/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/obstacles/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/obstacles/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/life_simulation/entities/obstacles/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/life_simulation/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/life_simulation/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +60,11 @@
     "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.life_simulation" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.life_simulation.HelloApplication" />
@@ -94,5 +95,26 @@
       <updated>1685648375595</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalMonitorStateException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
