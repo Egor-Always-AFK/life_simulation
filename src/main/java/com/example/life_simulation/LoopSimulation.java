@@ -5,9 +5,10 @@ import java.time.*;
 public class LoopSimulation {
 
     private boolean isStart = false;
-    private final CustomThread thread = new CustomThread();
+    private CustomThread thread = null;
     public void startSimulaton() throws InterruptedException {
         if (!isStart) {
+            thread = new CustomThread();
             thread.start();
             isStart = true;
         }
@@ -18,4 +19,7 @@ public class LoopSimulation {
         isStart = false;
     }
 
+    boolean getIsStart() {
+        return isStart;
+    }
 }

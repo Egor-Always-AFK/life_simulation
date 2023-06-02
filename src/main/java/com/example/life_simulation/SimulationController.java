@@ -61,10 +61,12 @@ public class SimulationController {
     @FXML
     void initialize() {
         close.setOnAction(event -> {
-            try {
-                loopSimulation.stopSimulation();
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+            if (loopSimulation.getIsStart()) {
+                try {
+                    loopSimulation.stopSimulation();
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
             exit(0);
         });
